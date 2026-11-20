@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Kanasu Kāṇu — AI, Robotics & IoT Upskilling for Students</title>
+<meta name="description" content="Kanasu Kāṇu — hands-on AI, Robotics, Embedded Systems and IoT upskilling for school and college students." />
+<meta property="og:title" content="Kanasu Kāṇu — Build the future" />
+<meta property="og:description" content="Hands-on AI, Robotics, Embedded Systems and IoT upskilling." />
+<meta property="og:type" content="website" />
+<link rel="stylesheet" href="styles.css" />
+<noscript><style>.reveal{opacity:1!important;transform:none!important;}</style></noscript>
+</head>
+<body>
+<div class="container">
+  <nav>
+    <div class="logo"><img src="logo.png" alt="Kanasu Kāṇu" style="height:42px;width:auto;" /></div>
+    <div class="navlinks">
+      <a href="index.html">Home</a>
+      <a href="programs.html">Programs</a>
+      <a href="learning-paths.html">Learning Paths</a>
+      <a href="technology.html">Technology</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="journal.html">Journal</a>
+      <a href="contact.html" class="cta-nav">Explore Programs</a>
+    </div>
+  </nav>
+</div>
+
+<!-- HERO -->
+<section class="hero">
+  <video autoplay muted loop playsinline preload="metadata" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0;">
+    <source src="whatsapp-video.mp4" type="video/mp4" />
+  </video>
+  <canvas id="hero3d" style="position:absolute;inset:0;width:100%;height:100%;z-index:1;pointer-events:none;"></canvas>
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(5,8,15,.5),rgba(5,8,15,.8));z-index:2;pointer-events:none;"></div>
+  <div class="container" style="position:relative;z-index:3;">
+    <div class="hero-inner">
+      <span class="eyebrow"><span class="dot"></span> Admissions open · Limited seats</span>
+      <h1>The future isn't something you wait for. <span class="grad">It's something you build.</span></h1>
+      <p>Discover the technologies, develop the skills and build the capabilities to shape tomorrow. Explore artificial intelligence, robotics, programming, automation, IoT and emerging technologies through practical, future-focused learning.</p>
+      <div class="actions">
+        <a href="contact.html" class="btn btn-primary btn-lg">Explore Programs</a>
+        <a href="about.html" class="btn btn-ghost btn-lg">Discover Our Approach</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+  <div class="marquee-track">
+    <span>AI &amp; Agents</span><span><b>·</b></span>
+    <span>Robotics</span><span><b>·</b></span>
+    <span>Embedded Systems</span><span><b>·</b></span>
+    <span>IoT</span><span><b>·</b></span>
+    <span>Prompt Engineering</span><span><b>·</b></span>
+    <span>Arduino &amp; ESP32</span><span><b>·</b></span>
+    <span>MQTT &amp; Cloud</span><span><b>·</b></span>
+    <span>Capstone Demo Day</span><span><b>·</b></span>
+    <span>AI &amp; Agents</span><span><b>·</b></span>
+    <span>Robotics</span><span><b>·</b></span>
+    <span>Embedded Systems</span><span><b>·</b></span>
+    <span>IoT</span><span><b>·</b></span>
+    <span>Prompt Engineering</span><span><b>·</b></span>
+    <span>Arduino &amp; ESP32</span><span><b>·</b></span>
+    <span>MQTT &amp; Cloud</span><span><b>·</b></span>
+    <span>Capstone Demo Day</span><span><b>·</b></span>
+  </div>
+</div>
+
+<!-- STATS -->
+<div class="stats">
+  <div class="container">
+    <div class="grid">
+      <div class="stat"><div class="num">4</div><div class="lbl">Weeks per batch</div></div>
+      <div class="stat"><div class="num">4</div><div class="lbl">Tech tracks</div></div>
+      <div class="stat"><div class="num">8</div><div class="lbl">Live sessions</div></div>
+      <div class="stat"><div class="num">4</div><div class="lbl">Hands-on projects</div></div>
+    </div>
+  </div>
+</div>
+
+<!-- INTRO VIDEO -->
+<section>
+  <div class="container">
+    <span class="section-tag">Watch</span>
+    <h2>See Kanasu Kāṇu in action</h2>
+    <p class="sub">A short film about what happens inside our batches.</p>
+    <div class="video-wrap" style="max-width:960px;margin:32px auto 0;">
+      <video id="introVideo" src="kanasu-video.mp4" controls playsinline preload="none" style="width:100%;height:100%;object-fit:cover;"></video>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="container">
+    <div class="split">
+      <div>
+        <span class="section-tag">Our story</span>
+        <h2>Since 2026, skills that awaken potential.</h2>
+        <p>Kanasu Kāṇu was born from a simple belief: every student should be able to build with AI, hardware and the internet — not just consume it.</p>
+        <p>Today, we run small, mentor-led batches in your town, where students build real agents, robots and smart devices. Affordable, local, and outcome-focused.</p>
+        <ul>
+          <li>Practical-first learning</li>
+          <li>Small batches, real mentor attention</li>
+          <li>Hardware kits provided during sessions</li>
+          <li>Capstone demo day</li>
+        </ul>
+        <div style="margin-top:28px;"><a href="about.html" class="btn btn-ghost">About Kanasu Kāṇu</a></div>
+      </div>
+      <div class="visual"><div style="text-align:center;padding-top:40px;"><img src="logo.png" alt="Kanasu Kāṇu" style="max-width:180px;width:100%;height:auto;margin-bottom:20px;" /><div class="big" style="margin-top:0;">Build<br/>the<br/>future.</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- TRACKS -->
+<section style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <span class="section-tag">What you'll learn</span>
+    <h2>Four tracks, one program</h2>
+    <p class="sub">Pick your focus or explore all four. Every track ends with a working project.</p>
+    <div class="grid grid-4">
+      <div class="card track-card">
+        <div class="track-head"><span class="track-icon">🤖</span><h3>AI &amp; Agents</h3></div>
+        <p>Prompt engineering, Claude/Hermes agents, automating real tasks, building your own AI assistant.</p>
+        <ul><li>Prompt design</li><li>Tool-using agents</li><li>Memory &amp; workflows</li><li>Capstone: AI assistant</li></ul>
+      </div>
+      <div class="card track-card">
+        <div class="track-head"><span class="track-icon">🦾</span><h3>Robotics</h3></div>
+        <p>Motors, sensors, Arduino/ESP32, line follower, obstacle avoider — build your first robot from scratch.</p>
+        <ul><li>Electronics basics</li><li>Motor &amp; sensor wiring</li><li>Arduino programming</li><li>Capstone: working robot</li></ul>
+      </div>
+      <div class="card track-card">
+        <div class="track-head"><span class="track-icon">🔌</span><h3>Embedded Systems</h3></div>
+        <p>C/C++ on microcontrollers, GPIO, interrupts, communication protocols (I2C, SPI, UART).</p>
+        <ul><li>Microcontroller setup</li><li>GPIO &amp; interrupts</li><li>I2C / SPI / UART</li><li>Capstone: sensor node</li></ul>
+      </div>
+      <div class="card track-card">
+        <div class="track-head"><span class="track-icon">📡</span><h3>IoT</h3></div>
+        <p>WiFi/Bluetooth devices, MQTT, dashboards, smart home prototypes connected to the cloud.</p>
+        <ul><li>WiFi/Bluetooth basics</li><li>MQTT messaging</li><li>Cloud dashboards</li><li>Capstone: smart device</li></ul>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:40px;"><a href="programs.html" class="btn btn-ghost">Explore all programs</a></div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section>
+  <div class="container">
+    <span class="section-tag">The learning cycle</span>
+    <h2>From beginner to builder</h2>
+    <p class="sub">A simple, structured path. No fluff, just building.</p>
+    <div class="journey">
+      <div class="step"><div class="n">01 · Enroll</div><h3>Reserve your seat</h3><p>Sign up, get your schedule and starter kit list. No prior experience needed.</p></div>
+      <div class="step"><div class="n">02 · Learn</div><h3>Live sessions</h3><p>Two mentor-led sessions a week. Small batches, real attention.</p></div>
+      <div class="step"><div class="n">03 · Build</div><h3>Hands-on projects</h3><p>One project per week. Build agents, robots, embedded and IoT devices.</p></div>
+      <div class="step"><div class="n">04 · Demo</div><h3>Capstone day</h3><p>Build a real device or agent and demo it. Earn your certificate.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO -->
+<section style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <span class="section-tag">Who is this for</span>
+    <h2>Built for curious students</h2>
+    <p class="sub">Whether you're 13 or 21, if you want to build, you belong here.</p>
+    <div class="grid grid-4">
+      <div class="card"><div class="icon">🎒</div><h3>Class 8-10</h3><p>Curious beginners. No coding needed to start.</p></div>
+      <div class="card"><div class="icon">🎓</div><h3>Class 11-12</h3><p>Prep for engineering/tech careers with real projects.</p></div>
+      <div class="card"><div class="icon">💻</div><h3>College Students</h3><p>Build portfolio projects, stand out in placements.</p></div>
+      <div class="card"><div class="icon">👨‍👩‍👧</div><h3>Parents</h3><p>Safe, structured, mentor-led learning in your town.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ROADMAP -->
+<section>
+  <div class="container">
+    <span class="section-tag reveal">The roadmap</span>
+    <h2 class="reveal">Your learning roadmap</h2>
+    <p class="sub reveal">A clear path from first session to capstone demo.</p>
+    <div class="roadmap reveal">
+      <div class="roadmap-steps">
+        <div class="rm-step"><div class="rm-dot"></div><h4>Module 1</h4><p>AI Foundations &amp; prompt engineering</p></div>
+        <div class="rm-step"><div class="rm-dot"></div><h4>Module 2</h4><p>Build your first AI agent</p></div>
+        <div class="rm-step"><div class="rm-dot"></div><h4>Module 3</h4><p>Hardware, robotics &amp; embedded</p></div>
+        <div class="rm-step"><div class="rm-dot"></div><h4>Module 4</h4><p>IoT + capstone demo day</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VIDEO -->
+<section style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div class="split">
+      <div>
+        <span class="section-tag reveal">See it in action</span>
+        <h2 class="reveal">Watch students build</h2>
+        <p class="reveal">A short look at what happens inside a Kanasu Kāṇu batch — real sessions, real projects, real demo days.</p>
+        <ul class="reveal">
+          <li>Live mentor-led sessions</li>
+          <li>Hands-on kit time</li>
+          <li>Capstone demos by students</li>
+        </ul>
+      </div>
+      <div class="reveal">
+        <div class="grid grid-3">
+          <div class="card" style="padding:0;overflow:hidden;">
+            <div class="video-wrap" style="border:0;border-radius:0;">
+              <iframe src="https://www.youtube.com/embed/8smjYAsxAts" title="6 Robots You Can Build in 2026" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div style="padding:16px 18px;"><h4 style="font-size:1rem;">6 Robots You Can Build in 2026</h4><p style="color:var(--muted);font-size:.85rem;">A realistic roadmap from line-follower to AI-powered arms and spider bots.</p></div>
+          </div>
+          <div class="card" style="padding:0;overflow:hidden;">
+            <div class="video-wrap" style="border:0;border-radius:0;">
+              <iframe src="https://www.youtube.com/embed/5DG0-_lseR4" title="AI Agents Replaced the Arduino IDE" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div style="padding:16px 18px;"><h4 style="font-size:1rem;">AI Agents Replaced the Arduino IDE</h4><p style="color:var(--muted);font-size:.85rem;">How Claude Code, Gemini CLI and Codex transform ESP32 development.</p></div>
+          </div>
+          <div class="card" style="padding:0;overflow:hidden;">
+            <div class="video-wrap" style="border:0;border-radius:0;">
+              <iframe src="https://www.youtube.com/embed/bsopLee3IKQ" title="Edge AI OpenClaw Jetson" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div style="padding:16px 18px;"><h4 style="font-size:1rem;">Edge AI in Action</h4><p style="color:var(--muted);font-size:.85rem;">Running OpenClaw locally on a Jetson Orin Nano for robotics.</p></div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section>
+  <div class="container">
+    <span class="section-tag reveal">Inside the program</span>
+    <h2 class="reveal">Moments from our batches</h2>
+    <p class="sub reveal">Sessions, builds, and demo days.</p>
+    <div class="gallery reveal">
+      <div class="tile" style="background-image:url('https://img.youtube.com/vi/8smjYAsxAts/maxresdefault.jpg');background-size:cover;background-position:center;"><span class="label">Robotics build</span></div>
+      <div class="tile" style="background-image:url('https://img.youtube.com/vi/5DG0-_lseR4/maxresdefault.jpg');background-size:cover;background-position:center;"><span class="label">AI agents</span></div>
+      <div class="tile" style="background-image:url('https://img.youtube.com/vi/bsopLee3IKQ/maxresdefault.jpg');background-size:cover;background-position:center;"><span class="label">Edge AI</span></div>
+      <div class="tile" style="background-image:url('https://img.youtube.com/vi/nmGEedloQ6E/maxresdefault.jpg');background-size:cover;background-position:center;"><span class="label">ESP32 workflow</span></div>
+      <div class="tile" style="background-image:url('https://img.youtube.com/vi/XYhTIQmNxQk/maxresdefault.jpg');background-size:cover;background-position:center;"><span class="label">IoT agent</span></div>
+      <div class="tile" style="background-image:url('https://picsum.photos/seed/arduino1/400/400');background-size:cover;background-position:center;"><span class="label">Arduino lab</span></div>
+      <div class="tile" style="background-image:url('https://picsum.photos/seed/robot2/400/400');background-size:cover;background-position:center;"><span class="label">Demo day</span></div>
+      <div class="tile" style="background-image:url('https://picsum.photos/seed/iot3/400/400');background-size:cover;background-position:center;"><span class="label">Smart device</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- JOURNAL -->
+<section style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <span class="section-tag reveal">Journal</span>
+    <h2 class="reveal">Stories from the program</h2>
+    <p class="sub reveal">Updates, student stories, and tech tips.</p>
+    <div class="grid grid-3">
+      <div class="journal-card reveal">
+        <div class="thumb" style="background-image:url('https://picsum.photos/seed/journal1/600/340');background-size:cover;background-position:center;"><span class="tag">Story</span></div>
+        <div class="body">
+          <div class="date">Jan 2026</div>
+          <h4>How a Class 10 student built his first robot</h4>
+          <p>Aditya's journey from zero coding to a working line-follower robot in 3 weeks.</p>
+        </div>
+      </div>
+      <div class="journal-card reveal delay-1">
+        <div class="thumb" style="background-image:url('https://picsum.photos/seed/journal2/600/340');background-size:cover;background-position:center;"><span class="tag">Update</span></div>
+        <div class="body">
+          <div class="date">Feb 2026</div>
+          <h4>New batch: AI &amp; Agents track expanded</h4>
+          <p>We've added more hands-on agent-building exercises based on student feedback.</p>
+        </div>
+      </div>
+      <div class="journal-card reveal delay-2">
+        <div class="thumb" style="background-image:url('https://picsum.photos/seed/journal3/600/340');background-size:cover;background-position:center;"><span class="tag">Tip</span></div>
+        <div class="body">
+          <div class="date">Mar 2026</div>
+          <h4>5 prompt-engineering tricks for students</h4>
+          <p>Simple techniques to get better answers from any AI assistant.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FIRST BATCH -->
+<section style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);">
+  <div class="container">
+    <span class="section-tag reveal">Be among the first</span>
+    <h2 class="reveal">Join our founding batch</h2>
+    <p class="sub reveal">We're building Kanasu Kāṇu's first cohorts. Early learners get hands-on mentor attention, real projects, and a certificate of completion.</p>
+    <div style="text-align:center;"><a href="contact.html" class="btn btn-primary btn-lg reveal">Reserve Your Seat</a></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-band">
+  <div class="container">
+    <div class="inner">
+      <span class="section-tag">Ready to build?</span>
+      <h2>Start your tech journey today</h2>
+      <p class="sub center">Limited seats per batch. Reserve yours now.</p>
+      <div class="price">₹999 <small>/ student / full program</small></div>
+      <p class="note">Includes 8 live sessions, 4 projects, kit access &amp; certificate.</p>
+      <a href="enroll.html" class="btn btn-primary btn-lg">Enroll Now</a>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="logo" style="margin-bottom:14px;"><img src="logo.png" alt="Kanasu Kāṇu" style="height:42px;width:auto;" /></div>
+        <p>Hands-on AI, Robotics, Embedded Systems and IoT upskilling for school and college students.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="programs.html">Programs</a>
+        <a href="learning-paths.html">Learning Paths</a>
+        <a href="technology.html">Technology</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="journal.html">Journal</a>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <a href="mailto:kanasukanu@outlook.com">kanasukanu@outlook.com</a>
+        <a href="https://wa.me/916361222162">+91 63612 22162</a>
+        <a href="enroll.html">Enroll</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Kanasu Kāṇu · Independent upskilling program · Your Town, India</span>
+      <span class="made">Made with care</span>
+    </div>
+  </div>
+</footer>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js"}}</script>
+<script type="module">
+import * as THREE from 'three';
+const canvas = document.getElementById('hero3d');
+if(canvas && !window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(60, canvas.clientWidth/canvas.clientHeight, 0.1, 100);
+  camera.position.z = 6;
+  const renderer = new THREE.WebGLRenderer({canvas, alpha:true, antialias:true});
+  renderer.setSize(canvas.clientWidth, canvas.clientHeight);
+  renderer.setPixelRatio(Math.min(window.devicePixelRatio,2));
+
+  const geo = new THREE.IcosahedronGeometry(1.6, 1);
+  const mat = new THREE.MeshStandardMaterial({color:0x6366f1, wireframe:true, emissive:0x22d3ee, emissiveIntensity:.4});
+  const mesh = new THREE.Mesh(geo, mat);
+  scene.add(mesh);
+
+  // particles
+  const pGeo = new THREE.BufferGeometry();
+  const count = 600;
+  const pos = new Float32Array(count*3);
+  for(let i=0;i<count*3;i++) pos[i]=(Math.random()-0.5)*12;
+  pGeo.setAttribute('position', new THREE.BufferAttribute(pos,3));
+  const pMat = new THREE.PointsMaterial({color:0xa78bfa, size:.04, transparent:true, opacity:.7});
+  const points = new THREE.Points(pGeo, pMat);
+  scene.add(points);
+
+  const light = new THREE.PointLight(0xffffff, 1.2); light.position.set(5,5,5); scene.add(light);
+  const amb = new THREE.AmbientLight(0x404040, .6); scene.add(amb);
+
+  let mx=0, my=0;
+  window.addEventListener('mousemove', e=>{ mx=(e.clientX/window.innerWidth-.5)*.6; my=(e.clientY/window.innerHeight-.5)*.6; });
+
+  function animate(){
+    requestAnimationFrame(animate);
+    mesh.rotation.x += .003; mesh.rotation.y += .005;
+    mesh.rotation.x += (my-mesh.rotation.x)*.02;
+    mesh.rotation.y += (mx-mesh.rotation.y)*.02;
+    points.rotation.y += .0008;
+    renderer.render(scene,camera);
+  }
+  animate();
+
+  window.addEventListener('resize', ()=>{
+    camera.aspect = canvas.clientWidth/canvas.clientHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize(canvas.clientWidth, canvas.clientHeight);
+  });
+}
+</script>
+<script src="script.js"></script>
+</body>
+</html>
